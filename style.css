@@ -1,0 +1,116 @@
+body{
+    margin: 0;
+   background-color: black;
+   color: white;
+  
+  }
+  .navbar{
+    display: flex;
+    justify-content: space-between;;
+    background-color: black;
+    align-items: center;
+    align-items: row;
+  }
+  .navleft{
+  padding: 10px;
+  }
+  .navright{
+    padding: 20px;
+  
+    margin: 10px;
+  }
+  .ele{
+    padding: 8.5px;
+    margin: 2px;
+    align-items: column;
+    flex-direction: row;
+    font-size: 20px;
+    font-weight: bold;
+  
+  }
+  .home{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    height:80vh;
+    border:2px solid black;
+    
+  }
+  .homeleft{
+    width:50vw;
+    margin: 25px;
+    padding-left: 30px;
+  }
+  .homeright{
+    width:50vw;
+    padding-left: 100px;
+  }
+  .man{
+    size: 500px;
+  }
+  h1{
+  font-family: "Merriweather", serif;
+  font-weight: 700;
+  font-style: normal;
+  color: goldenrod;
+  }
+  p{
+    font-family: "Nanum Gothic Coding", monospace;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 1.2px;
+    word-spacing: 1px;
+    line-height: 25px;
+  }
+  .shead{
+    text-align: center;
+    color:rgb(30, 173, 30);
+    text-shadow: 0cap chartreuse;
+    text-decoration: underline;
+    font-style: italic;
+    letter-spacing: 7px;
+  }
+  .services{
+  text-align: center;
+  padding: 50px;
+  }
+  .servicessub{
+    display: flex;
+    flex-direction: row;
+    
+  }
+  .sercard{
+    border: 2px solid rgb(9, 173, 9);
+    margin: 20px;
+    width: 90vw;
+  }
+  .spara{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 7px;
+  }
+  .subhead{
+    font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style:bold;
+  font-weight: bolder;
+  letter-spacing: 1.5px;
+  }
+  .contact{
+    text-align: center;
+  }
+ 
+  .contactinfo{
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    line-height: 76px;
+    font-weight: 25px;
+  }
+  #social{
+    align-items: center;
+    
+  }
+  .socialimg{
+    height: 40px;
+    padding: 7px;
+  }
