@@ -2,10 +2,14 @@
 <html>
 
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <title>Portfolio</title>
-  <link href="style.css" rel="stylesheet" type="text/css" />
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Portfolio</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
 </head>
 <style>
  @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&family=Nanum+Gothic+Coding&display=swap');
@@ -17,14 +21,14 @@
   </div>
     <div
       class="navright">
-    <a class="ele">Home</a>
-    <a class="ele">Services</a>
-    <a class="ele">About</a>
-    <a class="ele">Contact</a>
+    <a class="ele" href="#start">Home</a>
+    <a class="ele" href="#skills">Skills</a>
+    <a class="ele" href="#certification">Certificates</a>
+    <a class="ele" href="#info">Contact</a>
     </div>
   </div>
 <body>
-  <div class="home">
+  <div class="home" id="start">
     <div class="homeleft">
       <h1>Mohan Das</h1>
       <p>Hi, I'm Mohan Das, a passionate and dedicated B.Tech student with a strong interest in coding and software development. My journey in the tech world is driven by curiosity and a desire to solve real-world problems through programming. I'm continually honing my skills and exploring new technologies to build innovative solutions. Whether it's writing clean, efficient code or collaborating on exciting projects, I'm always eager to learn and grow in the ever-evolving field of technology.</p>
@@ -34,7 +38,7 @@
   </div>
     </div>
     
-    <div class="services">
+    <div class="skills" id="skills">
       <h1 class="shead">SKILLS I HAVE OBTAINED</h1>
       <div class="servicessub">
         <div class="sercard">
@@ -52,7 +56,33 @@
 
       </div>
     </div>
-    <div class="contact">
+
+    <div class="certificate" id="certification">
+        <h1 class="shead">Certifications</h1>
+        <div class="certificatesub">
+          <div class="certicard">
+            <h2 class="subhead">Python</h2>
+            <a href="https://priyadogra.com/wp-content/uploads/2021/05/python-course-certificate.jpg">Show Certificate</a>
+          </div>
+          <div class="certicard"> 
+            <h2 class="subhead"> MongoDb</h2>
+            <a href="https://ik.imagekit.io/aroecpyyl/1-c78c0872-1aaf-4775-8ac1-74c721edd53e_page-0001.jpg?updatedAt=1723453858466">Show Certificate</a>
+            
+          </div>
+          <div class="certicard">
+            <h2 class="subhead">SoftSkills</h2>
+            <a href="https://ik.imagekit.io/aroecpyyl/Interview%20Preparedness_Softskills%20-%20Course%20Completion%20Certificate_page-0001.jpg?updatedAt=1723453871636">Show Certificate</a>
+           
+          </div>
+  
+        </div>
+      </div>
+  
+
+
+
+
+    <div class="contact" id="info">
       <h1 class="shead">CONTACT</h1>
       <div class="contactinfo">
         <p>Mohan Das</p>
