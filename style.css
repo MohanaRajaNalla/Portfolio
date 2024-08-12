@@ -26,6 +26,7 @@ body{
     flex-direction: row;
     font-size: 20px;
     font-weight: bold;
+    color: rgb(247, 6, 171);
   
   }
   .home{
@@ -71,7 +72,7 @@ body{
     font-style: italic;
     letter-spacing: 7px;
   }
-  .services{
+  .skills{
   text-align: center;
   padding: 50px;
   }
@@ -105,12 +106,39 @@ body{
     font-family: "Montserrat", sans-serif;
     line-height: 76px;
     font-weight: 25px;
+    font-size: 25px;
   }
   #social{
     align-items: center;
     
   }
   .socialimg{
-    height: 40px;
+    height: 55px;
     padding: 7px;
   }
+  #certi{
+    height: 100vh;
+    width: 100vw;
+  
+}
+.certificate{
+    text-align: center;
+    padding: 50px;
+}
+.certificatesub{
+    display: flex;
+    flex-direction: row;
+}
+.certicard{
+    border: 2px solid rgb(9, 173, 9);
+    margin: 20px;
+    width: 90vw;
+
+}
+.ele:hover{
+    background-color:rgb(187, 228, 2);
+}
+a:hover{
+color: white;
+background-color: rgba(47, 42, 42, 0.762);
+}
